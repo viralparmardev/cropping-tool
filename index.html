@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CropThat!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+</head>
+
+<body>
+    <div class="text-light bg-danger text-center">
+        <br>
+        <h1><a href="index.html" class="text-light">CropThat!</a></h1>
+        <p>The best free service to crop images online</p>
+        <br>
+    </div>
+    <div class="container text-center">
+        <form action="upload.php" method="POST" enctype="multipart/form-data">
+            <br>
+            <div class="row text-left">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <input type="file" class="custom-file-input" id="file" name="image" accept="image/*" onchange="validateType(event)">
+                    <label class="custom-file-label" for="customFile">Choose image</label>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <br>
+            <p id="details">We recommend 1024 x 1024 sized images...</p>
+            <img src="images/water.png" id="preview" class="mx-auto d-block" width=350>
+            <br>
+            <button type="submit" id="upload" class="btn btn-danger">Crop this image</button>
+        </form>
+    </div>
+    <div class="text-muted text-center">
+        <br>
+        <p>Created by <a href="https://viralparmar.ml" class="text-danger">Viral Parmar</a> as a coding exercise for <a href="https://insider.in" class="text-danger">Insider</a></p>
+        <br>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/functions.js"></script>
+</body>
+
+</html>
