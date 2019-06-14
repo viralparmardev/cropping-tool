@@ -35,7 +35,7 @@ ___
 ___
 ## License?
 
-None. Feel free to use the project files as a template for your own assignment projects (not for the hiring process at Insider of course)!
+None. Feel free to use the project files as a template for your own assignment projects (not for the hiring process at Insider itself of course)!
 
 ___
 ## Thank you for stopping by :-)
