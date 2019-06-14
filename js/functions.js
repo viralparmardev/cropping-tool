@@ -9,7 +9,7 @@ function validateType(event) {
     var fileName = file.name;
     var fileExtension = fileName.replace(/^.*\./, '');
 
-    if (fileExtension == 'jpg' || fileExtension == 'jpeg' || fileExtension == 'png') {
+    if (fileExtension == 'jpeg' || fileExtension == 'jpg' || fileExtension == 'png') {
         document.getElementById('details').innerHTML = "Uploaded file: " + fileName;
         validateSize(file, event);
     }
@@ -30,7 +30,7 @@ function validateSize(file, event) {
                 previewImage(event);
             }
             else {
-                document.getElementById('details').innerHTML = "Please upload a 1024 x 1024 sized image...";
+                document.getElementById('details').innerHTML = "Please upload a 1024 x 1024 sized image to crop...";
                 link.style.visibility = 'hidden';
             }
         }
