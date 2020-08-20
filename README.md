@@ -3,14 +3,6 @@
 This repository contains my exercise project submitted for the Web Developer hiring process at Insider.
 
 ___
-## The website is now live!
-
-[Click here](https://cropthat.ml) or type the following URL into the address bar of your browser:
-```bash
-https://cropthat.ml
-```
-
-___
 ## How does it look?
 
 ![https://cropthat.ml](https://i.imgur.com/5Ld0wkc.png)
